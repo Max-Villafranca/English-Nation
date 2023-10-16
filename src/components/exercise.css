@@ -1,0 +1,46 @@
+.exercise {
+    font-size: larger;
+    width: 32rem;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.instructions,
+.exerciseBody,
+.respond {
+    padding: 1.5rem 2rem;
+}
+
+.instructions {
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 6rem;
+}
+
+.exerciseBody {
+    flex-grow: 1;
+} 
+
+.respond {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 6rem;
+}
+
+.respond button {
+    font-family: inherit;
+    height: min-content;
+    border-style: solid;
+    padding: 1rem;
+    border-radius: 15px;
+    border-color: green;
+    font-weight: bold;
+    background-color: hsl(120, 50%, 80%);
+}
+
+.respond button:hover {
+    background-color: hsl(120, 50%, 60%);
+}
+
