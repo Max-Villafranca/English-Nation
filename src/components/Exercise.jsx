@@ -4,6 +4,7 @@ import './exercise.css'
 import ActiveRecall from './Exercises/ActiveRecall'
 import AudioTranscription from './Exercises/AudioTranscription'
 import BreakIntoSyllables from './Exercises/BreakIntoSyllables'
+import ChooseCorrectCollocates from './Exercises/ChooseCorrectCollocates'
 import ChooseCorrectWord from './Exercises/ChooseCorrectWord'
 import ComprehensionQuestions from './Exercises/ComprehensionQuestions'
 import DefinitionFlashcard from './Exercises/DefinitionFlashcard'
@@ -20,6 +21,7 @@ export default function Exercise({type, data}) {
   ACTIVE_RECALL: <ActiveRecall className={bodyClass} data={data} />,
   AUDIO_TRANSCRIPTION: <AudioTranscription className={bodyClass} data={data} />,
   BREAK_INTO_SYLLABLES: <BreakIntoSyllables className={bodyClass} data={data} />,
+  CHOOSE_CORRECT_COLLOCATES: <ChooseCorrectCollocates className={bodyClass} data={data} />,
   CHOOSE_CORRECT_WORD: <ChooseCorrectWord className={bodyClass} data={data} />,
   COMPREHENSION_QUESTIONS: <ComprehensionQuestions className={bodyClass} data={data} />,
   DEFINITION_FLASHCARD: <DefinitionFlashcard className={bodyClass} data={data} />,
